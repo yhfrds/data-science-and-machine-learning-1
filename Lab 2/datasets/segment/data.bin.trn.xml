@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Image Segmentation Data">
+
+    <url file_name="data.bin.trn">
+    </url>
+    
+    <column_header specified="false" number="20">
+        <column name="region-centroid-col"   type="Double"/>
+        <column name="region-centroid-row"   type="Double"/>
+        <column name="region-pixel-count"    type="Double"/>
+        <column name="short-line-density-5"  type="Double"/>
+        <column name="short-line-density-2"  type="Double"/>
+        <column name="vedge-mean"            type="Double"/>
+        <column name="vedge-sd"              type="Double"/>
+        <column name="hedge-mean"            type="Double"/>
+        <column name="hedge-sd"              type="Double"/>
+        <column name="intensity-mean"        type="Double"/>
+        <column name="rawred-mean"           type="Double"/>
+        <column name="rawblue-mean"          type="Double"/>
+        <column name="rawgreen-mean"         type="Double"/>
+        <column name="exred-mean"            type="Double"/>
+        <column name="exblue-mean"           type="Double"/>
+        <column name="exgreen-mean"          type="Double"/>
+        <column name="value-mean"            type="Double"/>
+        <column name="saturatoin-mean"       type="Double"/>
+        <column name="hue-mean"              type="Double"/>
+        <column name="class"                 type="String"/>
+    </column_header>
+    
+    <row_header specified="false" prefix="segment_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>

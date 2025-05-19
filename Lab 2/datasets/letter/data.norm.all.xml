@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FileTableSpec SYSTEM "de/unikn/knime/data/filereader/FileTableSpec.dtd">
+
+<FileTableSpec id="Letter Image Recognition Data">
+
+    <url file_name="data.norm.all">
+    </url>
+    
+    <column_header specified="false" number="17">
+        <column name="x-box"  type="Double"/>
+        <column name="y-box"  type="Double"/>
+        <column name="width"  type="Double"/>
+        <column name="high"   type="Double"/>
+        <column name="onpix"  type="Double"/>
+        <column name="x-bar"  type="Double"/>
+        <column name="y-bar"  type="Double"/>
+        <column name="x2bar"  type="Double"/>
+        <column name="y2bar"  type="Double"/>
+        <column name="xybar"  type="Double"/>
+        <column name="x2ybr"  type="Double"/>
+        <column name="xy2br2" type="Double"/>
+        <column name="x-ege3" type="Double"/>
+        <column name="xegvy"  type="Double"/>
+        <column name="y-ege"  type="Double"/>
+        <column name="yegvx"  type="Double"/>
+        <column name="lettr"  type="String"/>
+
+    </column_header>
+
+    <row_header specified="false" prefix="letter_"/>
+
+    <column_delimiter value=" "/>
+    
+    <row_delimiter value="&#10;"/>
+    
+</FileTableSpec>
